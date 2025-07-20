@@ -23,6 +23,15 @@ A binary classification project for identifying different types of rice based on
 
 ---
 
+### [Project 2: Animal Faces Image Classification](Project2/)
+**Status**: 🚧 In Progress
+
+A computer vision project for classifying animal faces (cats, dogs, wild animals) using a convolutional neural network in PyTorch. Includes a Jupyter notebook and sample image for quick experimentation.
+
+**[View Project Details →](Project2/README.md)**
+
+---
+
 ## 📁 Repository Structure
 
 ```
@@ -128,7 +137,7 @@ Each project typically follows this standardized workflow:
 | Project | Status | Description |
 |---------|--------|-------------|
 | [Project 1: Rice Classification](Project1/) | ✅ Complete | Binary classification of rice types |
-| Project 2 | 🔄 Planned | (Future project) |
+| [Project 2: Animal Faces Image Classification](Project2/) | 🚧 In Progress | Image classification of animal faces |
 | Project 3 | 🔄 Planned | (Future project) |
 
 ## 🤝 Contributing
