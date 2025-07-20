@@ -9,14 +9,16 @@ This repository serves as a learning platform and reference implementation for v
 ## 🚀 Projects
 
 ### [Project 1: Rice Type Classification](Project1/)
+
 **Status**: ✅ Complete
 
 A binary classification project for identifying different types of rice based on morphological characteristics extracted from rice grain images.
 
 **Key Highlights**:
+
 - Neural network classifier with PyTorch
 - 18,185 rice grain samples with 11 morphological features
-- Achieves ~95% classification accuracy
+- Achieves ~98.5% classification accuracy
 - Complete data analysis and visualization pipeline
 
 **[View Project Details →](Project1/README.md)**
@@ -24,6 +26,7 @@ A binary classification project for identifying different types of rice based on
 ---
 
 ### [Project 2: Animal Faces Image Classification](Project2/)
+
 **Status**: 🚧 In Progress
 
 A computer vision project for classifying animal faces (cats, dogs, wild animals) using a convolutional neural network in PyTorch. Includes a Jupyter notebook and sample image for quick experimentation.
@@ -34,7 +37,7 @@ A computer vision project for classifying animal faces (cats, dogs, wild animals
 
 ## 📁 Repository Structure
 
-```
+```ini
 Projects_Pytorch/
 ├── README.md                          # General repository overview
 ├── Project1/
@@ -43,6 +46,7 @@ Projects_Pytorch/
 ├── Project2/                          # Future projects will follow same pattern
 │   └── README.md                      # (when added)
 └── ...
+
 ```
 
 ## 🎯 Project Goals
@@ -58,16 +62,19 @@ This repository aims to:
 ## 🔧 Technology Stack
 
 ### Core Framework
+
 - **PyTorch**: Primary deep learning framework
 - **Python 3.8+**: Programming language
 
 ### Essential Libraries
+
 - **scikit-learn**: Machine learning utilities
 - **pandas & numpy**: Data manipulation and numerical computing
 - **matplotlib & seaborn**: Data visualization
 - **Jupyter**: Interactive development and analysis
 
 ### Additional Tools
+
 - **torchsummary**: Model architecture visualization
 - **kagglehub**: Dataset access from Kaggle
 - **Virtual environments**: Dependency management
@@ -75,6 +82,7 @@ This repository aims to:
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Python 3.8 or higher
 - pip (Python package installer)
 - Git (for cloning the repository)
@@ -82,28 +90,35 @@ This repository aims to:
 ### Setup Instructions
 
 1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd Projects_Pytorch
-   ```
+
+```bash
+git clone <repository-url>
+cd Projects_Pytorch
+
+```
 
 2. **Create a virtual environment**
-   ```bash
-   python -m venv venv
-   
-   # On Windows
-   venv\Scripts\activate
-   
-   # On macOS/Linux
-   source venv/bin/activate
-   ```
+
+```bash
+python -m venv venv
+
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux
+source venv/bin/activate
+
+```
 
 3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+
+```bash
+pip install -r requirements.txt
+
+```
 
 4. **Explore projects**
+
    - Navigate to any project directory
    - Read the project-specific README
    - Run the notebooks or scripts
@@ -113,21 +128,25 @@ This repository aims to:
 Each project typically follows this standardized workflow:
 
 1. **Data Loading & Exploration**
+
    - Import and examine dataset structure
    - Analyze data statistics and distributions
    - Handle missing values and duplicates
 
 2. **Data Preprocessing**
+
    - Feature scaling and normalization
    - Train/validation/test splits
    - Data encoding and transformation
 
 3. **Model Development**
+
    - Design neural network architecture
    - Implement training loops
    - Hyperparameter tuning
 
 4. **Evaluation & Analysis**
+
    - Performance metrics calculation
    - Visualization of results
    - Model interpretation
@@ -154,6 +173,7 @@ We welcome contributions! Here's how you can help:
    - Technical implementation details
    - Usage instructions
    - Results and analysis
+
 4. **Update this main README** with a brief project overview
 5. **Update requirements.txt** if new dependencies are needed
 
@@ -187,6 +207,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📞 Contact & Support
 
 For questions, suggestions, or collaboration opportunities:
+
 - Open an issue in the repository
 - Contact the project maintainer
 - Join our community discussions
