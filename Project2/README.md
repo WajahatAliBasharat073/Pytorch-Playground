@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates image classification using PyTorch. The goal is to classify images of animals (cats, dogs, wild animals) using a convolutional neural network (CNN). The project is structured as a Jupyter notebook for easy experimentation and visualization.
+This project demonstrates image classification using PyTorch. The goal is to classify images of animals (cats, dogs, wild animals) using a convolutional neural network (CNN). The project is now **complete** and achieved **98.86% accuracy** on the validation set. The project is structured as a Jupyter notebook for easy experimentation and visualization.
 
 ## Dataset
 
@@ -40,6 +40,7 @@ pip install -r requirements.txt
 ## Results
 
 - The notebook demonstrates training and evaluation of a CNN on the AnimalFaces dataset.
+- Achieved **98.86% accuracy** on the validation set.
 - Includes sample visualizations and accuracy metrics.
 
 ## Files

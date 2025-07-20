@@ -18,7 +18,7 @@ A binary classification project for identifying different types of rice based on
 
 - Neural network classifier with PyTorch
 - 18,185 rice grain samples with 11 morphological features
-- Achieves ~98.5% classification accuracy
+- Achieves ~95% classification accuracy
 - Complete data analysis and visualization pipeline
 
 **[View Project Details →](Project1/README.md)**
@@ -27,9 +27,9 @@ A binary classification project for identifying different types of rice based on
 
 ### [Project 2: Animal Faces Image Classification](Project2/)
 
-**Status**: 🚧 In Progress
+**Status**: ✅ Complete
 
-A computer vision project for classifying animal faces (cats, dogs, wild animals) using a convolutional neural network in PyTorch. Includes a Jupyter notebook and sample image for quick experimentation.
+A computer vision project for classifying animal faces (cats, dogs, wild animals) using a convolutional neural network in PyTorch. Achieved 98.86% accuracy. Includes a Jupyter notebook and sample image for quick experimentation.
 
 **[View Project Details →](Project2/README.md)**
 
@@ -156,7 +156,7 @@ Each project typically follows this standardized workflow:
 | Project | Status | Description |
 |---------|--------|-------------|
 | [Project 1: Rice Classification](Project1/) | ✅ Complete | Binary classification of rice types |
-| [Project 2: Animal Faces Image Classification](Project2/) | 🚧 In Progress | Image classification of animal faces |
+| [Project 2: Animal Faces Image Classification](Project2/) | ✅ Complete | Image classification of animal faces (98.86% accuracy) |
 | Project 3 | 🔄 Planned | (Future project) |
 
 ## 🤝 Contributing
