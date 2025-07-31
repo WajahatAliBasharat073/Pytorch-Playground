@@ -1,53 +1,91 @@
-# PyTorch Projects Repository
-
-A comprehensive collection of machine learning projects implemented using PyTorch, covering various domains and applications in deep learning and data science.
-
-## 📋 Repository Overview
+# AI 2025 PyTorch Projects
 
 This repository serves as a learning platform and reference implementation for various machine learning tasks using PyTorch. Each project is self-contained with its own implementation, documentation, and results, making it easy to explore different ML concepts and techniques.
 
-## 🚀 Projects
+---
 
-### [Project 1: Rice Type Classification](Project1/)
+## 📈 Project Status
 
-**Status**: ✅ Complete
+| Project | Status | Description |
+|---------|--------|-------------|
+| [Project 1: Rice Classification](Project1/) | ✅ Complete | Binary classification of rice types |
+| [Project 2: Animal Faces Image Classification](Project2/) | ✅ Complete | Image classification of animal faces (98.86% accuracy) |
+| [Project 3: Bean Leaf Classification using Transfer Learning](Project3/) | ✅ Complete | Multi-class classification of bean leaf lesions using transfer learning  |
 
-A binary classification project for identifying different types of rice based on morphological characteristics extracted from rice grain images.
+---
 
-**Key Highlights**:
+## 📚 Requirements
 
+- Python 3.8+
+- PyTorch
+- Jupyter Notebook
+- Other dependencies as listed in `requirements.txt` and project-specific READMEs
+
+---
+
+## 📁 Directory Structure
+
+```
+Projects_Pytorch/
+├── Project1/
+│   ├── RiceClassification.ipynb
+│   └── README.md
+├── Project2/
+│   ├── AnimalFacesClassification.ipynb
+│   └── README.md
+├── Project3/
+│   ├── BeanLeafclassificationusingTransferLearning.ipynb
+│   └── README.md
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+    ```
+    git clone https://github.com/yourusername/Projects_Pytorch.git
+    cd Projects_Pytorch
+    ```
+
+2. **Install dependencies**
+    ```
+    pip install -r requirements.txt
+    ```
+
+3. **Download datasets**
+   - Follow instructions in each project folder's README to download and place datasets.
+
+4. **Run the notebooks**
+    ```
+    jupyter notebook
+    ```
+   - Open the desired project notebook and follow the steps inside.
+
+---
+
+## 📝 Project Highlights
+
+### Project 1: Rice Classification
 - Neural network classifier with PyTorch
 - 18,185 rice grain samples with 11 morphological features
 - Achieves ~95% classification accuracy
 - Complete data analysis and visualization pipeline
 
-**[View Project Details →](Project1/README.md)**
+### Project 2: Animal Faces Image Classification
+- Multi-class classification of animal faces.
+- Achieved **98.86% accuracy**.
+- Visualization of predictions and training curves.
+
+### Project 3: Bean Leaf Classification using Transfer Learning
+- Multi-class classification of bean leaf lesions (healthy, angular_leaf_spot, bean_rust).
+- Utilizes transfer learning with pretrained CNNs (e.g., ResNet, VGG).
+- Achieved **87.74% accuracy** on the validation set.
+- Includes data augmentation, model evaluation, and result visualization.
 
 ---
-
-### [Project 2: Animal Faces Image Classification](Project2/)
-
-**Status**: ✅ Complete
-
-A computer vision project for classifying animal faces (cats, dogs, wild animals) using a convolutional neural network in PyTorch. Achieved 98.86% accuracy. Includes a Jupyter notebook and sample image for quick experimentation.
-
-**[View Project Details →](Project2/README.md)**
-
----
-
-## 📁 Repository Structure
-
-```ini
-Projects_Pytorch/
-├── README.md                          # General repository overview
-├── Project1/
-│   ├── README.md                      # Detailed project documentation
-│   └── TabularDataClassification.ipynb
-├── Project2/                          # Future projects will follow same pattern
-│   └── README.md                      # (when added)
-└── ...
-
-```
 
 ## 🎯 Project Goals
 
@@ -59,161 +97,22 @@ This repository aims to:
 4. **Show Real-world Applications**: Practical implementations with real datasets
 5. **Maintain Code Quality**: Consistent structure and documentation across projects
 
-## 🔧 Technology Stack
+## 📚 References
 
-### Core Framework
-
-- **PyTorch**: Primary deep learning framework
-- **Python 3.8+**: Programming language
-
-### Essential Libraries
-
-- **scikit-learn**: Machine learning utilities
-- **pandas & numpy**: Data manipulation and numerical computing
-- **matplotlib & seaborn**: Data visualization
-- **Jupyter**: Interactive development and analysis
-
-### Additional Tools
-
-- **torchsummary**: Model architecture visualization
-- **kagglehub**: Dataset access from Kaggle
-- **Virtual environments**: Dependency management
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.8 or higher
-- pip (Python package installer)
-- Git (for cloning the repository)
-
-### Setup Instructions
-
-1. **Clone the repository**
-
-```bash
-git clone <repository-url>
-cd Projects_Pytorch
-
-```
-
-2. **Create a virtual environment**
-
-```bash
-python -m venv venv
-
-# On Windows
-venv\Scripts\activate
-
-# On macOS/Linux
-source venv/bin/activate
-
-```
-
-3. **Install dependencies**
-
-```bash
-pip install -r requirements.txt
-
-```
-
-4. **Explore projects**
-
-   - Navigate to any project directory
-   - Read the project-specific README
-   - Run the notebooks or scripts
-
-## 📊 Project Workflow Template
-
-Each project typically follows this standardized workflow:
-
-1. **Data Loading & Exploration**
-
-   - Import and examine dataset structure
-   - Analyze data statistics and distributions
-   - Handle missing values and duplicates
-
-2. **Data Preprocessing**
-
-   - Feature scaling and normalization
-   - Train/validation/test splits
-   - Data encoding and transformation
-
-3. **Model Development**
-
-   - Design neural network architecture
-   - Implement training loops
-   - Hyperparameter tuning
-
-4. **Evaluation & Analysis**
-
-   - Performance metrics calculation
-   - Visualization of results
-   - Model interpretation
-
-## 📈 Project Status
-
-| Project | Status | Description |
-|---------|--------|-------------|
-| [Project 1: Rice Classification](Project1/) | ✅ Complete | Binary classification of rice types |
-| [Project 2: Animal Faces Image Classification](Project2/) | ✅ Complete | Image classification of animal faces (98.86% accuracy) |
-| Project 3 | 🔄 Planned | (Future project) |
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-### Adding a New Project
-
-1. **Create a new project directory** (e.g., `Project2/`)
-2. **Add project files** with your implementation
-3. **Create a detailed README** in the project directory with:
-   - Project description and goals
-   - Dataset information
-   - Technical implementation details
-   - Usage instructions
-   - Results and analysis
-
-4. **Update this main README** with a brief project overview
-5. **Update requirements.txt** if new dependencies are needed
-
-### Contribution Guidelines
-
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/NewProject`)
-3. **Add your project** with proper documentation
-4. **Test your implementation** thoroughly
-5. **Commit your changes** with clear messages
-6. **Push to the branch** (`git push origin feature/NewProject`)
-7. **Open a Pull Request**
-
-### Code Standards
-
-- **Documentation**: Clear, comprehensive README files
-- **Code Quality**: Well-commented, readable code
-- **Reproducibility**: Self-contained projects with clear setup instructions
-- **Consistency**: Follow the established project structure
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- Dataset sources: Various Kaggle datasets and open-source repositories
-- Built with PyTorch ecosystem
-- Community contributions and feedback
-
-## 📞 Contact & Support
-
-For questions, suggestions, or collaboration opportunities:
-
-- Open an issue in the repository
-- Contact the project maintainer
-- Join our community discussions
+- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
+- [Kaggle Datasets](https://www.kaggle.com/datasets)
+- See individual project READMEs for dataset links and more details.
 
 ---
 
-**Note**: Each project is self-contained and can be run independently. Make sure to activate your virtual environment before running any project.
+## 🤝 Contributing
 
-**Last Updated**: [07/20/2025]
+Contributions are welcome! Please open issues or submit pull requests for improvements or new projects.
+
+---
+
+## 📄 License
+
+This repository is licensed under the MIT License.
+
+---
